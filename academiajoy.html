@@ -15,6 +15,16 @@
             background-color: rgb(250, 55, 169);
         }
 
+        .container-c {
+            display:flex;
+            justify-content: center;
+        }
+
+        .calculadora {
+            max-width: 676px;
+            width: 100%;
+        }
+
         /* Estilo do carrossel */
         .custom-carousel {
             max-width: 700px;
@@ -117,8 +127,8 @@
     </div>
 
     <!-- CALCULADORA DE IMC -->
-    <div class="container mt-5">
-        <div class="card p-4">
+    <div class="container mt-5 container-c">
+        <div class="card p-4 calculadora">
             <h2 class="text-center mb-4">Calculadora de IMC</h2>
             <input type="number" id="peso" class="form-control mb-3" placeholder="Peso em kg" />
             <input type="number" id="altura" class="form-control mb-3" step="0.01" placeholder="Altura em metros" />
